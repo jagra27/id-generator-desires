@@ -5,19 +5,15 @@ const Disclaimer = ({ onAccept, onDecline }) => {
     <div className="disclaimer-container">
       <h2>Disclaimer</h2>
       <p>
-        This BEARcard generator is intended for use by Morgan State University students, 
-        alumni, and authorized personnel only. By proceeding, you acknowledge that you 
-        will use this tool responsibly and in accordance with university policies.
+      NO REFRENCE to alcohol, drugs, or tobacco related products may be used in conjunction with university marks. 
+      No sexual content, profanity, or violence is not permitted or endorsed in conjunction with any university marks or likeness. 
       </p>
       <p>
-        The generated BEARcards are not official university identification and should not 
-        be used as such. Morgan State University reserves the right to revoke access to 
-        this tool at any time.
+      This is not an official Morgan State IDENTIFICATION. It does not admit you as a student or qualify you as alumni. 
+      This is strictly for promotional use and enjoyment of our upcoming homecoming.
       </p>
-      <p>Do you agree to these terms and confirm that you are authorized to use this tool?</p>
       <div className="disclaimer-buttons">
-        <button onClick={onAccept}>Yes, I Agree</button>
-        <button onClick={onDecline}>No, I Do Not Agree</button>
+        <button onClick={onAccept}>Okay</button>
       </div>
     </div>
   );

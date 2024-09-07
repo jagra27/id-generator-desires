@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 body {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .App {
@@ -12,14 +12,13 @@ body {
   min-height: 100vh;
   padding: 20px;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
 }
 
 .disclaimer-container {
   max-width: 600px;
   margin: 50px auto;
   padding: 20px;
-  background-color: #f8f8f8;
+  background: transparent;
   border: 1px solid #ddd;
   border-radius: 5px;
   text-align: left;
@@ -56,7 +55,7 @@ body {
 }
 
 .disclaimer-buttons button:last-child {
-  background-color: #cc0000;
+  background-color: #565353;
 }
 
 .disclaimer-buttons button:hover {
@@ -76,20 +75,20 @@ body {
   align-items: center;
   z-index: 1000;
   cursor: pointer;
-  transition: opacity 0.5s ease-in-out;
 }
 
 .overlay-text {
   color: white;
+  font-weight: 700;
   font-size: 2em;
   text-align: center;
   margin-bottom: 20px;
-  animation: pulse 2s infinite;
+  text-transform: uppercase;
 }
 
 .default-bearcard {
   max-width: 80%;
-  max-height: 60%;
+  max-height: 80%;
   object-fit: contain;
   transition: opacity 0.5s ease-in-out;
 }
